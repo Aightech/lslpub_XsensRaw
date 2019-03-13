@@ -3,10 +3,10 @@ C++ programs that publishes Xsens raw IMU sensors data to a LSL stream
 
 ## TODO [20%]
 - [X] create repository
-- [ ] read the doc
-- [ ] get the serial data
-- [ ] process it
-- [ ] stream LSL
+- [X] read the doc
+- [X] get the serial data
+- [X] process it
+- [X] stream LSL
 
 ## Architecture
 ### INPUTS:
@@ -18,6 +18,7 @@ C++ programs that publishes Xsens raw IMU sensors data to a LSL stream
 ## Installation
 ### Ubuntu 18
 #### Requirements
+install xsens lib at /usr/local/xsens
 #### Steps
 
 ### Windows 10
