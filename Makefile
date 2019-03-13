@@ -1,7 +1,7 @@
 XSENS_INSTALL_PREFIX := /usr/local/xsens
 BASIC_CFLAGS := -g -Wall -Wextra
 INCLUDE:=-I$(XSENS_INSTALL_PREFIX)/include -I$(XSENS_INSTALL_PREFIX)/include/xsensdeviceapi -I./include
-LFLAGS:=-lm -lxsensdeviceapi -lxstypes -lpthread -L$(XSENS_INSTALL_PREFIX)/lib -Wl,-rpath,$(XSENS_INSTALL_PREFIX)/lib -L/usr/local/xsens -L./lib -Wl,-rpath,./lib -llsl64
+LFLAGS:=-lm -lxsensdeviceapi -lxstypes -lpthread -L/usr/local/xsens -L./lib -Wl,-rpath,./lib -llsl64
 
 CFLAGS:=$(BASIC_CFLAGS) $(INCLUDE) $(CFLAGS)
 CXXFLAGS:=$(BASIC_CFLAGS) -std=c++11 $(INCLUDE) $(CXXFLAGS)

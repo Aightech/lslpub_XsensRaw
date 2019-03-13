@@ -1,12 +1,13 @@
 # lslpub_XsensRaw
-C++ programs that publishes Xsens raw IMU sensors data to a LSL stream
+C++ programs that publishes Xsens raw IMU sensors data to a LSL stream.
 
-## TODO [20%]
+## TODO
 - [X] create repository
 - [X] read the doc
 - [X] get the serial data
 - [X] process it
 - [X] stream LSL
+- [ ] see which raw data can be displayed
 
 ## Architecture
 ### INPUTS:
@@ -18,8 +19,22 @@ C++ programs that publishes Xsens raw IMU sensors data to a LSL stream
 ## Installation
 ### Ubuntu 18
 #### Requirements
-install xsens lib at /usr/local/xsens
+None
+
 #### Steps
+##### Compile
+```bash
+make
+```
+##### Run
+Connect the wirelessmaster to you pc via USB.
+```bash
+sudo ./lslsub_XsensRaw 
+```
+switch on all the sensors you want.
+
+then press "y" on your keyboard.
+
 
 ### Windows 10
 #### Requirements
