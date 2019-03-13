@@ -1,0 +1,6 @@
+g++ -g -Wall -Wextra -std=c++11 -I/usr/local/xsens/include -I/usr/local/xsens/include/xsensdeviceapi -I./include  src/callback.cpp src/conio.c.o src/conio.c src/conio.d src/main.cpp -o lslsub_XsensRaw -lm -lxsensdeviceapi -lxstypes -lpthread -L/usr/local/xsens/lib -Wl,-rpath,/usr/local/xsens/lib -L/usr/local/xsens
+Makefile:14: recipe for target 'lslsub_XsensRaw' failed
+g++ -g -Wall -Wextra -std=c++11 -I/usr/local/xsens/include -I/usr/local/xsens/include/xsensdeviceapi -I./include  src/callback.cpp src/conio.c src/main.cpp -o lslsub_XsensRaw -lm -lxsensdeviceapi -lxstypes -lpthread -L/usr/local/xsens/lib -Wl,-rpath,/usr/local/xsens/lib -L/usr/local/xsens
+Makefile:14: recipe for target 'lslsub_XsensRaw' failed
+g++ -g -Wall -Wextra -std=c++11 -I/usr/local/xsens/include -I/usr/local/xsens/include/xsensdeviceapi -I./include  src/callback.cpp src/conio.c src/main.cpp -o lslsub_XsensRaw -lm -lxsensdeviceapi -lxstypes -lpthread -L/usr/local/xsens/lib -Wl,-rpath,/usr/local/xsens/lib -L/usr/local/xsens
+Makefile:14: recipe for target 'lslsub_XsensRaw' failed
