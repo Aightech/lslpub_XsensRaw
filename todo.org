@@ -1,0 +1,9 @@
+* Tasks [40%]
+
+- [X] Read Documentation
+- [X] Make test
+- [ ] Download libraries
+- [ ] Create a configuration GUI
+- [ ] create documentation
+
+* Notes
